@@ -1,0 +1,26 @@
+{
+  "name": "unit2select",
+  "version": "1.0.0",
+  "description": "All measurement units to select",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringkubd/unit2select.git"
+  },
+  "keywords": [
+    "measurement",
+    "unit",
+    "to",
+    "select",
+    "option"
+  ],
+  "author": "Anwar Jahid <ajr.jahid@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ringkubd/unit2select/issues"
+  },
+  "homepage": "https://github.com/ringkubd/unit2select#readme"
+}
