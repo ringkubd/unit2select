@@ -1,8 +1,7 @@
 {
   "name": "unit2select",
-  "version": "1.0.0",
+  "version": "1.0.18",
   "description": "All measurement units to select",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/ringkubd/unit2select/issues"
   },
-  "homepage": "https://github.com/ringkubd/unit2select#readme"
+  "homepage": "https://github.com/ringkubd/unit2select#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

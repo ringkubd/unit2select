@@ -1,4 +1,4 @@
-[
+const units = [
   {
     "definition": {
       "def": "s",
@@ -25876,4 +25876,6 @@
       "params": "Wb"
     }
   }
-]
+];
+module.exports = units;
+
