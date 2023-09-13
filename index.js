@@ -15,7 +15,7 @@ function unit2select(el){
     if(el.current instanceof Element){
         let options = `<option>Select a option</option>`;
         formatedUnit.forEach(unit => {
-            options += `<option value="${unit.value}">${unit.text.toUpperCase()}</option>`
+            options += `<option value="${unit.value}">${unit.text?.toUpperCase()}</option>`
         });
         el.current.innerHTML = options;
     }
