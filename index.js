@@ -1,7 +1,10 @@
 const units = require('./src/units');
-function unit2select(el){
+function unit2select(el = false){
     let element;
     let formatedUnit = unitFormat();
+    if (el instanceof Boolean){
+        return  formatedUnit;
+    }
     if (el instanceof String){
         element = document.getElementById(el);
 
